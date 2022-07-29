@@ -1,0 +1,65 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .navbar-brand img {
+    width: 100%;
+    max-width: 100px;
+  }
+
+  .heroimg .content img {
+    width: 400px
+  }
+  
+  /* Grid CSS */
+  
+  #whatido {
+    margin: 0px 5%;
+    display: grid;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-rows: ;
+    grid-template-columns: ;
+    grid-template-areas:
+    "firstskill secondskill"
+    "CTA";
+  }
+  
+  #firestskill {
+    grid-area: firstskill;
+    background-image: url("../images/furniture1.png");
+  }
+  
+  #secondskill {
+    grid-area: secondskill;
+    background-image: url("../images/furniture2.png");
+  }
+  
+  #CTA {
+    grid-area: CTA;
+    background-image: url("../images/woodbg.png");
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  
+  #headline {
+    background-color: rgba(255,255,255,0.8);
+    border-bottom: 5px solid #FF6200;
+    position: absolute;
+    right: -50px;
+    top: 100px;
+    padding: 25px;
+    max-width: 550px;
+    z-index: 100;
+  }
+  
+  .heroGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+  
+  
